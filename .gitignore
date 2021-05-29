@@ -4,3 +4,5 @@
 
 # Dynamic plugins .dll
 bin/
+
+/.vl
