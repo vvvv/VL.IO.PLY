@@ -2,7 +2,7 @@
 <Document xmlns:p="property" Id="HJoMeCKmuP3LpBO1uxlx5n" LanguageVersion="2021.3.3.131" Version="0.128">
   <NugetDependency Id="GLYrTMP1lbbLmTXMIg1vw2" Location="VL.CoreLib" Version="2021.3.3" />
   <Patch Id="TsABahK5eM2LeCcy9pPqP9">
-    <Canvas Id="JXYFDAHa1S8Pz7sW8M31gB" DefaultCategory="IO.Ply" CanvasType="FullCategory">
+    <Canvas Id="JXYFDAHa1S8Pz7sW8M31gB" DefaultCategory="IO.PLY" CanvasType="FullCategory">
       <Pad Id="KeqKm37mrzbPgab3399C7N" Bounds="618,281,308,24" ShowValueBox="true" isIOBox="true" Value="http://graphics.stanford.edu/data/3Dscanrep/">
         <p:TypeAnnotation>
           <Choice Kind="TypeFlag" Name="String" />
@@ -42,7 +42,7 @@
         <Patch Id="LpXlR6FQYCdOFBIIqBWrQ9" IsGeneric="true">
           <Canvas Id="D1J0aSLNCXqM618Hd1V7Cc" CanvasType="Group">
             <Node Bounds="216,201,85,19" AutoConnect="true" Id="CIywyCkSSEfLMXOjHpXpEQ">
-              <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+              <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="PLYReader" />
               </p:NodeReference>
@@ -101,7 +101,7 @@
         <Patch Id="BmBI9dZoRpqNTjvBiV4SBd" IsGeneric="true">
           <Canvas Id="SG3EuftVh9xOtluGBUCWlO" CanvasType="Group">
             <Node Bounds="216,201,85,19" AutoConnect="true" Id="UVdqbcOWB06MlyXYdbbd7F">
-              <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+              <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="PLYReader" />
               </p:NodeReference>
@@ -164,7 +164,7 @@
         <Patch Id="G3QbT97tZpSMFWPehMhXd6" IsGeneric="true">
           <Canvas Id="NBiXq8GRiaiPB3RlHrcvtu" CanvasType="Group">
             <Node Bounds="216,201,85,19" AutoConnect="true" Id="HxfJvNxhp1tNsmPMusHiN4">
-              <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+              <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="PLYReader" />
               </p:NodeReference>
@@ -246,7 +246,7 @@
         <Patch Id="JY67etTWPqELfV9FrIju81" IsGeneric="true">
           <Canvas Id="A1Ep086oIHZPxwEF85njKM" CanvasType="Group">
             <Node Bounds="216,201,85,19" AutoConnect="true" Id="K8EtOdH3TYUPNBgjsnnsmR">
-              <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+              <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="PLYReader" />
               </p:NodeReference>
@@ -394,7 +394,7 @@
                       <Patch Id="RNnjNCEEZucL8P3J6ko1eT" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="SmVKZ8EbXLUN6b850GmOdK" Name="Then" ManuallySortedPins="true" />
                       <Node Bounds="335,591,88,19" Id="LQqDU3AGOnxPHFljmLPdP3">
-                        <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                        <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="ParseAsciiBody" />
                         </p:NodeReference>
@@ -450,7 +450,7 @@
                     <Pin Id="VsK42gFMRv0MBaHzANLwhK" Name="Item 3" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="265,295,33,19" Id="MJuBcBUGSbALfjFIfPVz6k">
-                    <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                    <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="ParseHeader" />
                     </p:NodeReference>
@@ -481,7 +481,7 @@
                       <Patch Id="G8IYh0l4MXyLd8bj3jgf7i" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="R37F5dzLnwSN3w0GNtyRQG" Name="Then" ManuallySortedPins="true" />
                       <Node Bounds="334,378,88,19" Id="Prz1RjHXhGxOKXM9itI29Q">
-                        <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                        <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="ParseBinaryBody" />
                         </p:NodeReference>
@@ -493,7 +493,7 @@
                     </Patch>
                   </Node>
                   <Node Bounds="180,252,71,19" Id="F4r88HSFvjAOBiprGB5qgX">
-                    <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                    <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="ReadHeader" />
                     </p:NodeReference>
@@ -1047,7 +1047,7 @@
                 <Patch Id="Li7N6IY1lgdMhwesYXrexo" Name="Dispose" ManuallySortedPins="true" />
                 <ControlPoint Id="TTKmeQ0xzJaOgZ6Ifgvbym" Bounds="333,1110" />
                 <Node Bounds="279,1137,74,19" Id="AbYH6kyYYIWMPrQvLOShTc">
-                  <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                  <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="BinaryVertex (V3)" />
                   </p:NodeReference>
@@ -1136,7 +1136,7 @@
                 <Patch Id="UmiZqA1qhPiNyWWOsoy2db" Name="Dispose" ManuallySortedPins="true" />
                 <ControlPoint Id="NSLNHjoWiAIPlye6mRzQCK" Bounds="289,2052" />
                 <Node Bounds="243,2094,74,19" Id="CBGD2sWJGv3QQYePsOgX6Q">
-                  <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                  <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="BinaryVertex (V3)" />
                   </p:NodeReference>
@@ -2084,6 +2084,7 @@
               <Pin Id="ElQxkNwxsuZNFRMlEujLB8" Name="Iteration Count" Kind="InputPin" />
               <Pin Id="NZTqCSpHZNeLYpXExS2ctL" Name="Break" Kind="OutputPin" />
               <ControlPoint Id="CXIqNY7JbuKNMUyAstFT5p" Bounds="321,1736" Alignment="Bottom" />
+              <ControlPoint Id="RbfHTkdgoZLMkHlorltBdc" Bounds="255,1736" Alignment="Bottom" />
               <Patch Id="H276Z83TG4AP8CQVMVNonu" ManuallySortedPins="true">
                 <Patch Id="KRWe5gumRIjODrSih5BP1z" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="DmLF1Oy8PDXPzPqSosis07" Name="Update" ManuallySortedPins="true">
@@ -2092,7 +2093,7 @@
                 <Patch Id="E7UV6PsSZKkM1lQjIcFPfH" Name="Dispose" ManuallySortedPins="true" />
                 <ControlPoint Id="PNAxsRiaSRrQAhk1YBmqIs" Bounds="329,1594" />
                 <Node Bounds="253,1639,74,19" Id="EQW5SqMRMRHMDIUBbFGKfo">
-                  <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                  <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="BinaryVertex (V3)" />
                   </p:NodeReference>
@@ -2114,7 +2115,6 @@
                   <Pin Id="NLuWvnMoZfFL9CNDkyW03L" Name="Result" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="RbfHTkdgoZLMkHlorltBdc" Bounds="255,1736" Alignment="Bottom" />
             </Node>
             <ControlPoint Id="AlHAEHou46mOP8iDpB1euF" Bounds="193,1465" />
             <Link Id="DyAJjU1tS3EQKr0feX3C81" Ids="AlHAEHou46mOP8iDpB1euF,ElQxkNwxsuZNFRMlEujLB8" />
@@ -2186,6 +2186,7 @@
               <Pin Id="ClfCMMGeAV8PZcrqnTTbSJ" Name="Break" Kind="OutputPin" />
               <ControlPoint Id="EUeCJzvlFOlMrx6J5P73XJ" Bounds="257,2972" Alignment="Bottom" />
               <ControlPoint Id="SSej1MbNttiPwDeU6tegy4" Bounds="355,2972" Alignment="Bottom" />
+              <ControlPoint Id="OoleAe4E15AMzwR6gOOi8J" Bounds="319,2972" Alignment="Bottom" />
               <Patch Id="LB9xNtgOCKjLl33mu5PEnd" ManuallySortedPins="true">
                 <Patch Id="VnLkloWNHtPPfEPdvXde6p" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="Rs2sntPfinwLVYKghjWqsb" Name="Update" ManuallySortedPins="true">
@@ -2194,7 +2195,7 @@
                 <Patch Id="O0LkJRAGJNUPwW4F1nN1lh" Name="Dispose" ManuallySortedPins="true" />
                 <ControlPoint Id="ETdAZFxdFJ9Pz471y8ZEhK" Bounds="303,2679" />
                 <Node Bounds="257,2721,74,19" Id="Hk7oitY7GjrMYYzw9RhwsT">
-                  <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                  <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="BinaryVertex (V3)" />
                   </p:NodeReference>
@@ -2319,7 +2320,6 @@
                   <Pin Id="AntEE9O41D5Pts1IugUr2z" Name="Result" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="OoleAe4E15AMzwR6gOOi8J" Bounds="319,2972" Alignment="Bottom" />
             </Node>
             <ControlPoint Id="SknekYaOKgqPxupLoRwXj6" Bounds="208,2621" />
             <Link Id="IrWxoN7GqufLeL5Fs6SLQY" Ids="SknekYaOKgqPxupLoRwXj6,BTlM2RXUhS9OoK25ZTOnm3" />
@@ -2811,7 +2811,7 @@
               <Pin Id="VgU0ufQVBuiMAGVui4JKkj" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Node Bounds="1427,1146,76,19" Id="IdylHFaiAplND8EJ2LdkOU">
-              <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+              <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="AsciiVertices" />
               </p:NodeReference>
@@ -2904,7 +2904,7 @@
             <Pin Id="D8H9e347aZOMl5lSFwSh5b" Name="Comments" Kind="OutputPin" Bounds="508,604" />
             <Link Id="OaWm8mH3OEaORdtnoGmC1E" Ids="OQEXZCoR6s9Pjq2MgkPGIz,D8H9e347aZOMl5lSFwSh5b" IsHidden="true" />
             <Node Bounds="102,1018,79,19" Id="Us9TBudeS6aQLh0G0YKHZX">
-              <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+              <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="MagicNumber" />
               </p:NodeReference>
@@ -2939,7 +2939,7 @@
                 <Patch Id="K4KOgaZnnXHOjK5V9BrlMw" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="Ck9sl3vjFQYMVmnRB3gsNd" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="206,1116,65,19" Id="ILX9rrzHyfiOJqpP190KR4">
-                  <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                  <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Comments" />
                   </p:NodeReference>
@@ -2951,10 +2951,10 @@
                   <Pin Id="Msi31DdIrr9MnNAwvfFEGx" Name="Offset" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="206,1209,80,19" Id="QlJ17UQh6TGPnkdOSNQ5uj">
-                  <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                  <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="ElementCount" />
-                    <CategoryReference Kind="Category" Name="Ply" NeedsToBeDirectParent="true" />
+                    <CategoryReference Kind="Category" Name="PLY" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
                   <Pin Id="A3MBCCOGX7wNlrfFQqOSId" Name="Input" Kind="InputPin" />
                   <Pin Id="E4Yyre12v5bNETyvN6GiVs" Name="Element" Kind="InputPin" />
@@ -2970,10 +2970,10 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="207,1263,80,19" Id="Q2miaJO4GLDN3kTGAeO6QQ">
-                  <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                  <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="ElementCount" />
-                    <CategoryReference Kind="Category" Name="Ply" NeedsToBeDirectParent="true" />
+                    <CategoryReference Kind="Category" Name="PLY" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
                   <Pin Id="FK6qOsfcD2fNRFJlgghM4N" Name="Input" Kind="InputPin" />
                   <Pin Id="UpAZMrl2jIKLOA29WReljZ" Name="Element" Kind="InputPin" />
@@ -2989,10 +2989,10 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="206,1084,48,19" Id="SkpFXS6NfjZOfw1l3NZdn7">
-                  <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                  <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Format" />
-                    <CategoryReference Kind="Category" Name="Ply" NeedsToBeDirectParent="true" />
+                    <CategoryReference Kind="Category" Name="PLY" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
                   <Pin Id="KgXrmmqXSkaOnzFa3lo0uX" Name="Input" Kind="InputPin" />
                   <Pin Id="HrjJazDpRapOMgw7oGBN5u" Name="Output" Kind="OutputPin" />
@@ -3005,7 +3005,7 @@
                   </p:TypeAnnotation>
                 </Pad>
                 <Node Bounds="207,1161,65,19" Id="NAQr5O5HcfANj4OCJo2rAO">
-                  <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                  <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Comments" />
                   </p:NodeReference>
@@ -3431,7 +3431,7 @@
                         <Patch Id="Tc8GTcnFkqIPwsIYlGYzgp" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="KP6r2p2QhIXP17tMMBW4Nx" Name="Then" ManuallySortedPins="true" />
                         <Node Bounds="1023,1777,78,19" Id="UZmrdQKSzwGQKVAOxPjYsK">
-                          <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+                          <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="GetByteCount" />
                           </p:NodeReference>
@@ -3869,7 +3869,7 @@
             <Pin Id="GbT83oL5pc1OskwYsV3mkF" Name="Reverse Face Winding" Kind="InputPin" Bounds="531,885" />
             <Link Id="NdmKjtr3QMFLtoj23KuiPq" Ids="GbT83oL5pc1OskwYsV3mkF,MqosTGjvU6uLjFW0lHmxTP" IsHidden="true" />
             <Node Bounds="1348,1550,39,19" Id="TmbEyZQiOb1O0ro4EaZ2la">
-              <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+              <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="BinaryVertices" />
               </p:NodeReference>
@@ -3927,7 +3927,7 @@
             <Link Id="KyNjoGeD0xUOCqKCoJcDPL" Ids="FMUIFyAatzOP4gMuSIUIY1,Eh3SWah0skwNcYMmleNVDV" />
             <Link Id="PN4BMBBHbv9O5VTsrZntBJ" Ids="QNhrVDAS0TLMYe15GUK5L1,DQqKUhaEzVAPInB0m4ojOH" />
             <Node Bounds="1507,1633,38,19" Id="Iyo6xGLWK0OMEuYHuJV7uh">
-              <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+              <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="BinaryFaces (UChar Int)" />
               </p:NodeReference>
@@ -4477,28 +4477,19 @@
           <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
         </p:ValueBoxSettings>
       </Pad>
-      <Pad Id="D6Nwp5woGBZL77byeFGMYJ" Bounds="565,530,245,42" ShowValueBox="true" isIOBox="true" Value="- make mesh nodes">
-        <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-          <Choice Kind="TypeFlag" Name="String" />
-        </p:TypeAnnotation>
-        <p:ValueBoxSettings>
-          <p:fontsize p:Type="Int32">9</p:fontsize>
-          <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
-        </p:ValueBoxSettings>
-      </Pad>
       <!--
 
-    ************************ PLYReader (XYZ Mesh) ************************
+    ************************ PLYReader (Mesh) ************************
 
 -->
-      <Node Name="PLYReader (XYZ Mesh)" Bounds="354,494" Id="G5CKqXTZVYhOhF53Xi1so7">
+      <Node Name="PLYReader (Mesh)" Bounds="354,494" Id="G5CKqXTZVYhOhF53Xi1so7">
         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
           <Choice Kind="ContainerDefinition" Name="Process" />
         </p:NodeReference>
         <Patch Id="VglkzsjUepPN8A2y9t3LZH" IsGeneric="true">
           <Canvas Id="KimfgEkDqjFPyUSfb48XQK" CanvasType="Group">
             <Node Bounds="216,201,85,19" AutoConnect="true" Id="MxdUw6lW06PMZOB8tpfhEf">
-              <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.PLY.vl">
+              <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="PLYReader" />
               </p:NodeReference>

@@ -209,9 +209,9 @@
             <Pin Id="T0NDk3okIRLN4MBgdFeGw9" Name="Entity" Kind="OutputPin" />
           </Node>
           <Node Bounds="456,262,-41,19" Id="O7QckiXlZssOeWK1cc6xtD">
-            <p:NodeReference LastCategoryFullName="IO.Ply" LastSymbolSource="VL.IO.PLY.vl">
+            <p:NodeReference LastCategoryFullName="IO.PLY" LastSymbolSource="VL.IO.PLY.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="PLYReader (XYZ Mesh)" />
+              <Choice Kind="ProcessAppFlag" Name="PLYReader (Mesh)" />
             </p:NodeReference>
             <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="A0Xep8XokoULHkbdllC28f" Name="File Path" Kind="InputPin" />
@@ -220,7 +220,11 @@
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pin>
-            <Pin Id="A2Q5kDgxvtVPgf16wLyP6A" Name="Topology" Kind="InputPin" />
+            <Pin Id="A2Q5kDgxvtVPgf16wLyP6A" Name="Topology" Kind="InputPin" DefaultValue="TriangleList">
+              <p:TypeAnnotation LastCategoryFullName="Stride.API.Graphics" LastSymbolSource="VL.Stride.Runtime.TypeForwards.vl">
+                <Choice Kind="TypeFlag" Name="PrimitiveType" />
+              </p:TypeAnnotation>
+            </Pin>
             <Pin Id="H5SzjsUOuYvLFLU3x0QDSD" Name="Read" Kind="InputPin" />
             <Pin Id="FajmeQro6rGMacOzw8A5U7" Name="Output" Kind="OutputPin" />
             <Pin Id="UfEuEAtuW8OLu64q3VqB9U" Name="BoundingBox" Kind="OutputPin" />

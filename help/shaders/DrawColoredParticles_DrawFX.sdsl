@@ -19,8 +19,7 @@ shader DrawColoredParticles_DrawFX : VS_PS_Base, ShaderUtils
     stage override void VSMain() 
     {
         uint id = streams.VertexID;
-        float3 p = ParticlesBuffer[id];
-        streams.PositionWS = float4(p.xyz, 1);
+        streams.PositionWS = ParticlesBuffer[id];
         streams.Color = ColorBuffer[id];
     }
 
