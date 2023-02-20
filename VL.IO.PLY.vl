@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="HJoMeCKmuP3LpBO1uxlx5n" LanguageVersion="2021.4.0.195" Version="0.128">
-  <NugetDependency Id="GLYrTMP1lbbLmTXMIg1vw2" Location="VL.CoreLib" Version="2021.4.0-0195-g3a76268057" />
+<Document xmlns:p="property" Id="E3IcrP1C8NQL8Dyq9Idghb" LanguageVersion="2021.4.12.1374" Version="0.128">
+  <NugetDependency Id="GLYrTMP1lbbLmTXMIg1vw2" Location="VL.CoreLib" Version="2021.4.12" />
   <Patch Id="TsABahK5eM2LeCcy9pPqP9">
     <Canvas Id="JXYFDAHa1S8Pz7sW8M31gB" DefaultCategory="IO.PLY" CanvasType="FullCategory">
       <Pad Id="KeqKm37mrzbPgab3399C7N" Bounds="618,281,308,24" ShowValueBox="true" isIOBox="true" Value="http://graphics.stanford.edu/data/3Dscanrep/">
@@ -115,8 +115,8 @@
               <Pin Id="ChoHwL79eQJMqmBHzVPrSo" Name="Object Infos" Kind="OutputPin" />
               <Pin Id="DjE4FGGaVcjPwx3NQgfAaE" Name="On Completed" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="PuvhpHUPZygNYsXmJm0AiS" Bounds="213,382" />
-            <Node Bounds="214,270,80,26" Id="EEgasBQplEqPCjel79u05r">
+            <ControlPoint Id="PuvhpHUPZygNYsXmJm0AiS" Bounds="215,362" />
+            <Node Bounds="216,250,80,26" Id="EEgasBQplEqPCjel79u05r">
               <p:NodeReference>
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Split" />
@@ -126,7 +126,7 @@
               <Pin Id="Fc8MsSOtjrVOwSFWnVYG85" Name="Position" Kind="OutputPin" />
               <Pin Id="IaZMGx9kxauNWQbgp0TTE7" Name="Color" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="NScd1QFnR6kLdfL7zbFPxY" Bounds="290,383" />
+            <ControlPoint Id="NScd1QFnR6kLdfL7zbFPxY" Bounds="292,363" />
           </Canvas>
           <ProcessDefinition Id="R7kGSlYMfX9NLUjm2cFBv3">
             <Fragment Id="EUS2e211jNuL5j8UVE7U1M" Patch="AXQg6nuqkzyNVV9cWoD4v5" Enabled="true" />
@@ -149,6 +149,7 @@
             <Pin Id="D5RR5YGdGpGMvKXTRsTYTJ" Name="Object Infos" Kind="OutputPin" />
             <Pin Id="MYupEVL04zdLgvZZsmsDi1" Name="On Completed" Kind="OutputPin" />
           </Patch>
+          <Link Id="PxcsUn01HahOibGnfkkbnk" Ids="Lii5sLKhrQFND3ifX0xMLn,HYSodVMyi5jP7EPXdTx90F" />
         </Patch>
       </Node>
       <!--
@@ -443,8 +444,8 @@
                   <Node Bounds="326,656,70,26" Id="DnmWZj1hYLTMIt5KxjUG7X">
                     <p:NodeReference LastCategoryFullName="Primitive.Tuple (3 Items)" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="Split" />
                       <CategoryReference Kind="RecordType" Name="Tuple (3 Items)" NeedsToBeDirectParent="true" />
+                      <Choice Kind="OperationNode" Name="Tuple (Split)" />
                     </p:NodeReference>
                     <Pin Id="RcFbk3MiJkhNIiZ3eanaPL" Name="Input" Kind="StateInputPin" />
                     <Pin Id="Qe62WbKxXCyPak1gPwZsYJ" Name="Item 1" Kind="OutputPin" />
@@ -3284,8 +3285,8 @@
             <Node Bounds="1431,1206,70,26" Id="F2V81iBDakpLnEUf88HoMr">
               <p:NodeReference LastCategoryFullName="Primitive.Tuple (3 Items)" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="Join" />
                 <CategoryReference Kind="RecordType" Name="Tuple (3 Items)" NeedsToBeDirectParent="true" />
+                <Choice Kind="OperationNode" Name="Tuple (Create)" />
               </p:NodeReference>
               <Pin Id="JDJBp5BSx7gNML58uzFkHC" Name="Item 1" Kind="InputPin" />
               <Pin Id="BcqLH2CiBC7MdJShFXu9hp" Name="Item 2" Kind="InputPin" />
@@ -4495,8 +4496,8 @@
             <Node Bounds="1360,1654,70,26" Id="TWWfjAHLavqMCTQ6C8n6Hs">
               <p:NodeReference LastCategoryFullName="Primitive.Tuple (3 Items)" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="Join" />
                 <CategoryReference Kind="RecordType" Name="Tuple (3 Items)" NeedsToBeDirectParent="true" />
+                <Choice Kind="OperationNode" Name="Tuple (Create)" />
               </p:NodeReference>
               <Pin Id="Ptl7Q19bLZ7P9LwOPCJQWi" Name="Item 1" Kind="InputPin" />
               <Pin Id="Cj7k3flAEIcMhRqbg1Ee16" Name="Item 2" Kind="InputPin" />
@@ -5506,6 +5507,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="RFbgF3f0NzMO1qbufuH6xN" Location="VL.CoreLib" Version="2021.4.0-0195-g3a76268057" />
-  <NugetDependency Id="MnAhNeGbETUMZMGqk4k7lN" Location="VL.Stride" Version="2021.4.0-0195-g3a76268057" />
+  <NugetDependency Id="RFbgF3f0NzMO1qbufuH6xN" Location="VL.CoreLib" Version="2021.4.12" />
+  <NugetDependency Id="MnAhNeGbETUMZMGqk4k7lN" Location="VL.Stride" Version="2021.4.12" />
 </Document>
