@@ -1,6 +1,5 @@
 # VL.IO.PLY
 
-# VL.IO.NDI
 Provides support reading [.ply](http://paulbourke.net/dataformats/ply/) files in VL.
 
 Try it with vvvv, the visual live-programming environment for .NET  
