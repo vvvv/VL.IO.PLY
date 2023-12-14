@@ -209,15 +209,14 @@
               <Pin Id="Q5JOdM2lNyALL0OkJKxjJk" Name="Vertex Element Types" Kind="OutputPin" />
               <Pin Id="ShmnccNRbSwMORLlpkhoz4" Name="On Completed" Kind="OutputPin" />
             </Node>
-            <Node Bounds="217,279,125,19" Id="N1g3EMy84ROQMfdHSVfGG8">
+            <Node Bounds="216,279,105,19" Id="N1g3EMy84ROQMfdHSVfGG8">
               <p:NodeReference LastCategoryFullName="Stride.Buffers" LastDependency="VL.Stride.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="DynamicBuffer" />
+                <Choice Kind="ProcessAppFlag" Name="ImmutableBuffer" />
               </p:NodeReference>
               <Pin Id="Gp57oayWXyhMtymV651mje" Name="Node Context" Kind="InputPin" IsHidden="true" />
-              <Pin Id="OBhD5krNoyDLRIehoDEDlB" Name="Input" Kind="InputPin" />
+              <Pin Id="COcfivQkmHAP7MZ8BON8zp" Name="Initial Data" Kind="InputPin" />
               <Pin Id="Iec5mcb6V8FLfocsYuue4r" Name="Element Size In Bytes" Kind="InputPin" />
-              <Pin Id="AW45n0oULnLNolBU9jU9PB" Name="Offset In Bytes" Kind="InputPin" />
               <Pin Id="EhBVmTCXA6yPEGj7NXWuL4" Name="Is Structured Buffer" Kind="InputPin" IsHidden="true" />
               <Pin Id="HspTEwdFs7pMs4mxECtVYk" Name="Is Vertex Buffer" Kind="InputPin" DefaultValue="False">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -226,12 +225,12 @@
               </Pin>
               <Pin Id="LCw4eMhVudjNsKkgvILVBc" Name="Is Index Buffer" Kind="InputPin" />
               <Pin Id="RtEwm4o0KoJNmW5FCk3f6J" Name="Allow Raw Views" Kind="InputPin" IsHidden="true" />
+              <Pin Id="Rh2XgFcip2GPq6QGGU81on" Name="Recreate On Inital Data Change" Kind="InputPin" />
               <Pin Id="QUC7ZZo12xWPgiZqGxT0x6" Name="Recreate" Kind="InputPin" />
-              <Pin Id="GlBiP3fNe7kOnF8imzzRhp" Name="Apply" Kind="InputPin" />
               <Pin Id="CknLomSHIObLdP5QEA7aJq" Name="Output" Kind="OutputPin" />
               <Pin Id="GPuwr5H9t3TLnG8kQq8482" Name="Has Changed" Kind="OutputPin" />
             </Node>
-            <Pad Id="P3G3ze1uxEzLW2KH7Ou8s6" Bounds="220,252">
+            <Pad Id="P3G3ze1uxEzLW2KH7Ou8s6" Bounds="218,252">
               <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="Spread" />
                 <p:TypeArguments>
@@ -251,8 +250,6 @@
             <Fragment Id="QakV98rslExQVLzSdrI21G" Patch="E3PC2s7m7szOe09q4ngZ17" Enabled="true" />
           </ProcessDefinition>
           <Link Id="BMKbY3dy573QcdhJ3WgtEg" Ids="NTH9i4DifTSNsJQDqV6bgH,P3G3ze1uxEzLW2KH7Ou8s6" />
-          <Link Id="NK3GPL9cNPaLwRiv8iqugB" Ids="P3G3ze1uxEzLW2KH7Ou8s6,OBhD5krNoyDLRIehoDEDlB" />
-          <Link Id="IYkEUbxdbxyPQ5fWi8jblO" Ids="ShmnccNRbSwMORLlpkhoz4,GlBiP3fNe7kOnF8imzzRhp" />
           <Link Id="Tmt0javDbjEPi9wzkqk22A" Ids="CknLomSHIObLdP5QEA7aJq,VYEuLJp8KgQLF7Q2RUNhRq" />
           <Link Id="P0U0frl1NtmOZ9m7RBNGwU" Ids="VYEuLJp8KgQLF7Q2RUNhRq,Spggml1aw2PQCvS39LX1ek" IsHidden="true" />
           <Link Id="RCcOaAknYq1POoQvcnlKGo" Ids="ShmnccNRbSwMORLlpkhoz4,K6AGBx5UERJPvjCMGuuhy5" />
@@ -276,6 +273,7 @@
           <Link Id="ABnmuSwwk93NVxpI3qmolw" Ids="NJrvhd81eXHOebmuHCuM1w,VCaRDW5cVDRN3FAoExZuYo" IsHidden="true" />
           <Link Id="R0U2RMYkjKzNOUHyyGNNDS" Ids="VpRoiOKP6SiOro17NyCn7h,LP41pVE3GKaOvwtxCorgLW" />
           <Link Id="VwEyh136yuZLCF1n0z5AI7" Ids="Q5JOdM2lNyALL0OkJKxjJk,NJrvhd81eXHOebmuHCuM1w" />
+          <Link Id="ETzy5x123bpM9lIC7iCyC6" Ids="P3G3ze1uxEzLW2KH7Ou8s6,COcfivQkmHAP7MZ8BON8zp" />
         </Patch>
       </Node>
       <!--
@@ -308,15 +306,14 @@
               <Pin Id="O2XS8YcAcARLGKVkIcoP5v" Name="Vertex Element Types" Kind="OutputPin" />
               <Pin Id="L0AAGWjgIqTNxogdOF0ASg" Name="On Completed" Kind="OutputPin" />
             </Node>
-            <Node Bounds="216,321,125,19" Id="MkZltkb1s29NwoB4mT2c1N">
+            <Node Bounds="214,321,105,19" Id="MkZltkb1s29NwoB4mT2c1N">
               <p:NodeReference LastCategoryFullName="Stride.Buffers" LastDependency="VL.Stride.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="DynamicBuffer" />
+                <Choice Kind="ProcessAppFlag" Name="ImmutableBuffer" />
               </p:NodeReference>
               <Pin Id="H6aTakzQTX0MvalhE4FAhc" Name="Node Context" Kind="InputPin" IsHidden="true" />
-              <Pin Id="SObDc7pbWVCNNlxnYSIcDx" Name="Input" Kind="InputPin" />
+              <Pin Id="JFqYhjCXNoZMxjcYojYxp3" Name="Initial Data" Kind="InputPin" />
               <Pin Id="RaNo5kIkIUpPv94LIWPKbe" Name="Element Size In Bytes" Kind="InputPin" />
-              <Pin Id="T3x5YOkmcpTMwZ4DZ2lyj3" Name="Offset In Bytes" Kind="InputPin" />
               <Pin Id="AXjA6vmBrfbMNUXXmfqS6A" Name="Is Structured Buffer" Kind="InputPin" IsHidden="true" />
               <Pin Id="QhWNudXJaeTLPn8rgjVFKn" Name="Is Vertex Buffer" Kind="InputPin" DefaultValue="False">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -325,21 +322,20 @@
               </Pin>
               <Pin Id="PjJLPgkt1zDMCpZPFJjjq3" Name="Is Index Buffer" Kind="InputPin" />
               <Pin Id="DMOUlxGjfWPM6erp1pp2yM" Name="Allow Raw Views" Kind="InputPin" IsHidden="true" />
+              <Pin Id="Rwu9pmznNZTNrKYOZwu1sK" Name="Recreate On Inital Data Change" Kind="InputPin" />
               <Pin Id="ARHSqS88hbfPC2ZWIZ1YoP" Name="Recreate" Kind="InputPin" />
-              <Pin Id="SiELaofoKvJOu6GxbeHqkq" Name="Apply" Kind="InputPin" />
               <Pin Id="HfKKMPD4xYrOyj7PW6a4iJ" Name="Output" Kind="OutputPin" />
               <Pin Id="DOwIEypgBctLHR7h1e6WKA" Name="Has Changed" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="KCUJXxF4P7ROBVHJcQ0CvG" Bounds="218,380" />
-            <Node Bounds="369,321,125,19" Id="BtPn1IE2U0INTOLiJmH91f">
+            <ControlPoint Id="KCUJXxF4P7ROBVHJcQ0CvG" Bounds="216,380" />
+            <Node Bounds="369,321,105,19" Id="BtPn1IE2U0INTOLiJmH91f">
               <p:NodeReference LastCategoryFullName="Stride.Buffers" LastDependency="VL.Stride.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="DynamicBuffer" />
+                <Choice Kind="ProcessAppFlag" Name="ImmutableBuffer" />
               </p:NodeReference>
               <Pin Id="IDfzNdLhAvbLwpDJHP11tg" Name="Node Context" Kind="InputPin" IsHidden="true" />
-              <Pin Id="OLIIQrYzqdPNURNkNttbWO" Name="Input" Kind="InputPin" />
+              <Pin Id="HiN2i22bYXGOoZ75hzb6zW" Name="Initial Data" Kind="InputPin" />
               <Pin Id="N24qEu4SQYKOjtvqe6u061" Name="Element Size In Bytes" Kind="InputPin" />
-              <Pin Id="B2PgqZw0qkgPH4HGCCdlOd" Name="Offset In Bytes" Kind="InputPin" />
               <Pin Id="C0jY85B9p0HNLpmr5Sewcq" Name="Is Structured Buffer" Kind="InputPin" IsHidden="true" />
               <Pin Id="O3ZKGnosBrgOMhzeqb4O6P" Name="Is Vertex Buffer" Kind="InputPin" DefaultValue="False">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -348,12 +344,12 @@
               </Pin>
               <Pin Id="FKAynNWCbaaMAlJT8FAwRz" Name="Is Index Buffer" Kind="InputPin" />
               <Pin Id="BugW432a68qNQUxtWdSzdx" Name="Allow Raw Views" Kind="InputPin" IsHidden="true" />
+              <Pin Id="Bb5AyduSpvZLZOMMy8NWOE" Name="Recreate On Inital Data Change" Kind="InputPin" />
               <Pin Id="BtzUgtWptt1P7ZXphGCvvM" Name="Recreate" Kind="InputPin" />
-              <Pin Id="KdNsCK8Y4NEOl4SN3rn3CK" Name="Apply" Kind="InputPin" />
               <Pin Id="US1G6rc7PY7QSqtBryTBLq" Name="Output" Kind="OutputPin" />
               <Pin Id="Gy5ssg4zhL4Pxr5TgJCqbK" Name="Has Changed" Kind="OutputPin" />
             </Node>
-            <Node Bounds="216,268,48,26" Id="JfH8QBLpM9EL8fdS4plfKk">
+            <Node Bounds="214,268,48,26" Id="JfH8QBLpM9EL8fdS4plfKk">
               <p:NodeReference LastCategoryFullName="IO.PLY.V4P_RGB" LastDependency="VL.IO.PLY.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Split" />
@@ -374,15 +370,11 @@
             <Fragment Id="EOAV7cxn19VLoyxA44VFlT" Patch="BBqbfGjsKcJNHtloOKmYyZ" Enabled="true" />
             <Fragment Id="IqC2Rm7bdziP7ieGOtBB8d" Patch="GXJ8QCuD5kcPPB1ldWA0tT" Enabled="true" />
           </ProcessDefinition>
-          <Link Id="F4pTFDkgoUsLuljbrds8aF" Ids="L0AAGWjgIqTNxogdOF0ASg,SiELaofoKvJOu6GxbeHqkq" />
           <Link Id="JGOuLNmHlvLOCL7a8zUzRd" Ids="HfKKMPD4xYrOyj7PW6a4iJ,KCUJXxF4P7ROBVHJcQ0CvG" />
           <Link Id="Q4EM3Q8jpuVP3Ghgz6v1S3" Ids="KCUJXxF4P7ROBVHJcQ0CvG,A84onJMjqNuLD186m6WaHg" IsHidden="true" />
           <Link Id="O9rWPTag7ilOpelXk89TDo" Ids="N6P8GjsrL8QOFP2I5FT0iu,TIWGUpioYyJMUlEFvIbBAl" />
-          <Link Id="IYlayTvHn5HOqrlv3DoTsi" Ids="GiyZfTMsqJ0NjNBLMc53Dt,SObDc7pbWVCNNlxnYSIcDx" />
-          <Link Id="DSkaHAeAE4IQGIhsCUuS5U" Ids="MPA62Nwsb3QLcBDdDQcp2E,OLIIQrYzqdPNURNkNttbWO" />
           <Link Id="QjsdWTouAjjPo1busEq4Q9" Ids="US1G6rc7PY7QSqtBryTBLq,TYbhRltCJVrNC9C0A1DYTr" />
           <Link Id="DTVSGYWpsYrLTkMUPe5lFU" Ids="TYbhRltCJVrNC9C0A1DYTr,KnbfKTifjg3PnStTOtiBUr" IsHidden="true" />
-          <Link Id="KmtRbdvkHHRLrf3f2moy9F" Ids="L0AAGWjgIqTNxogdOF0ASg,KdNsCK8Y4NEOl4SN3rn3CK" />
           <Link Id="AR8imyiVayPOWjJZmr1dds" Ids="L0AAGWjgIqTNxogdOF0ASg,NQoPvi979y4LbGNxw775xy" />
           <Link Id="HNGWL5VxGsiOfDWucBw5LO" Ids="NQoPvi979y4LbGNxw775xy,GoqUe9ISGmsQKXXffqmD3y" IsHidden="true" />
           <Link Id="QHsFIbXq1NJLmwgUXlbQU8" Ids="Edk8FHxx6zcL9w2Uk2Wytu,HqPCmcBoko3ONppvkBdMxX" />
@@ -407,6 +399,8 @@
             <Pin Id="I3CcTbEmlBFQTFy6e2YfqL" Name="Reverse Face Winding" Kind="InputPin" />
             <Pin Id="VKxVIXCuhnGNCfiuy6Waco" Name="Read" Kind="InputPin" />
           </Patch>
+          <Link Id="GEqkeYWzIcROkexLOHzg1r" Ids="GiyZfTMsqJ0NjNBLMc53Dt,JFqYhjCXNoZMxjcYojYxp3" />
+          <Link Id="Kj6LU3EAxPJOFiWDOwMY4z" Ids="MPA62Nwsb3QLcBDdDQcp2E,HiN2i22bYXGOoZ75hzb6zW" />
         </Patch>
       </Node>
       <Canvas Id="Mt61FLPVtkyMSVrdkzcL26" Name="Advanced" Position="405,467">
